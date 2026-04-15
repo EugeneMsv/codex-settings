@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Docs"
+  short_description: "Configure Codex with docs and issue context"
+  default_prompt: "Use $codex-docs to inspect my Codex configuration and recommend safe updates."
+
+policy:
+  allow_implicit_invocation: true

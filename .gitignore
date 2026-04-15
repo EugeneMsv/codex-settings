@@ -7,3 +7,9 @@
 !agents/**
 !rules/
 !rules/**
+!skills/
+!skills/**
+skills/.*/
+skills/**/.*/
+skills/**/__pycache__/
+skills/**/*.pyc

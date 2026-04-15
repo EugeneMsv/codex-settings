@@ -1,5 +1,8 @@
 model_reasoning_effort = "high"
 show_raw_agent_reasoning = true
+model_reasoning_summary = "detailed"
+plan_mode_reasoning_effort = "xhigh"
+
 personality = "pragmatic"
 sandbox_mode = "workspace-write"
 approval_policy = "on-request"
@@ -10,6 +13,7 @@ commit_attribution = ""
 multi_agent = true
 personality = true
 codex_hooks = true
+runtime_metrics = true
 
 [tui]
 animations = false
@@ -59,3 +63,6 @@ approval_mode = "approve"
 [mcp_servers.context7]
 command = "docker"
 args = ["run", "-i", "--rm", "-e", "MCP_TRANSPORT=stdio", "mcp/context7"]
+
+[plugins."github@openai-curated"]
+enabled = true
